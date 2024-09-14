@@ -1,0 +1,32 @@
+html {
+    width: 100%;
+}
+
+body {
+    background-color: #00C5FF;
+    font-family:'Courier New', Courier, monospace;
+}
+
+#container {
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+p {
+    font-size: 50px;
+    color: white;
+}
+
+button {
+    height: 100px;
+    width: 100px;
+    background-color: #1AB50D;
+    border: 0;
+    border-radius: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin: 15px;
+}
